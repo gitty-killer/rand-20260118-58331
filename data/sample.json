@@ -1,0 +1,115 @@
+{
+  "items": [
+    {
+      "id": "feedback-01",
+      "name": "feedback_01",
+      "category": "feature",
+      "amount": 13,
+      "score": 53,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-02",
+      "name": "feedback_02",
+      "category": "bug",
+      "amount": 16,
+      "score": 56,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-03",
+      "name": "feedback_03",
+      "category": "ux",
+      "amount": 19,
+      "score": 59,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-04",
+      "name": "feedback_04",
+      "category": "performance",
+      "amount": 22,
+      "score": 62,
+      "status": "needs_review"
+    },
+    {
+      "id": "feedback-05",
+      "name": "feedback_05",
+      "category": "unknown",
+      "amount": 25,
+      "score": 65,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-06",
+      "name": "feedback_06",
+      "category": "bug",
+      "amount": 28,
+      "score": 68,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-07",
+      "name": "feedback_07",
+      "category": "ux",
+      "amount": 31,
+      "score": 71,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-08",
+      "name": "feedback_08",
+      "category": "performance",
+      "amount": 34,
+      "score": 74,
+      "status": "needs_review"
+    },
+    {
+      "id": "feedback-09",
+      "name": "feedback_09",
+      "category": "feature",
+      "amount": 37,
+      "score": 77,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-10",
+      "name": "feedback_10",
+      "category": "bug",
+      "amount": 40,
+      "score": 80,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-11",
+      "name": "feedback_11",
+      "category": "ux",
+      "amount": 43,
+      "score": 83,
+      "status": "ok"
+    },
+    {
+      "id": "feedback-12",
+      "name": "feedback_12",
+      "category": "performance",
+      "amount": 46,
+      "score": 86,
+      "status": "needs_review"
+    }
+  ],
+  "rules": {
+    "min_amount": 5,
+    "max_amount": 60,
+    "allowed_statuses": [
+      "ok",
+      "needs_review",
+      "blocked"
+    ]
+  },
+  "expected": {
+    "total_amount": 354,
+    "avg_score": 69.5,
+    "top_item": "feedback-12",
+    "issue_count": 1
+  }
+}

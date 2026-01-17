@@ -1,0 +1,13 @@
+{
+  "project_title": "Product Feedback Review",
+  "goal": "Score feedback themes and prioritize responses.",
+  "entity_name": "feedback",
+  "amount_label": "votes",
+  "score_label": "sentiment_score",
+  "categories": [
+    "feature",
+    "bug",
+    "ux",
+    "performance"
+  ]
+}
